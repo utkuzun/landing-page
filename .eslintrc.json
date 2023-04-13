@@ -17,6 +17,12 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["react", "@typescript-eslint"],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
   "rules": {
     "@typescript-eslint/semi": ["error"],
     "indent": ["error", 2, { "SwitchCase": 1 }],
