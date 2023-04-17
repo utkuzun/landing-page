@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-double {
+    @apply flex flex-col-reverse md:flex-row container px-6 items-center mx-auto mt-10 space-y-0  md:space-y-0;
+  }
+}
