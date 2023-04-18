@@ -6,7 +6,7 @@ const Hero = () => {
           <h1 className='max-w-md text-4xl font-bold text-center md:text-5xl md:text-left'>
             Bring everyone together to build better products.
           </h1>
-          <p className='darkGrayishBlue text-center md:text-left max-w-sm '>
+          <p className='darkGrayishBlue text-center md:text-left max-w-md '>
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals view.
           </p>
