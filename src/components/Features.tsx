@@ -6,8 +6,8 @@ interface FeatureProps {
 
 const Feature = ({ title, text, number }: FeatureProps) => {
   return (
-    <div className='grid grid-cols-10 gap-2'>
-      <div className='col-span-10 flex justify-start space-x-2 bg-brightRedSupLight md:bg-white rounded-full rounded-r-none w-screen md:w-full'>
+    <div className='grid grid-cols-10 gap-2 pl-3'>
+      <div className='col-span-10 flex justify-start space-x-2  bg-brightRedSupLight md:bg-white rounded-full rounded-r-none md:w-full'>
         <h4 className='bg-brightRed rounded-full font-bold text-white px-4 py-1'>
           {number}
         </h4>
@@ -43,7 +43,7 @@ const Features = () => {
   return (
     <section id='features'>
       <div className='section-double flex-col md:flex-row'>
-        <div className='flex flex-col mb-32 space-y-12 md:w-1/2'>
+        <div className='flex flex-col mb-20 space-y-10 md:w-1/2'>
           <h1 className='max-w-md text-3xl font-bold text-center md:text-4xl md:text-left'>
             What is different about manage.
           </h1>
@@ -53,7 +53,7 @@ const Features = () => {
             teams.
           </p>
         </div>
-        <div className='flex flex-col mb-32 space-y-6 md:w-1/2 md:justify-center'>
+        <div className='flex flex-col mb-20 space-y-6 md:w-1/2 md:justify-center'>
           {dataList.map((data, index) => {
             return <Feature key={index} {...data} />;
           })}

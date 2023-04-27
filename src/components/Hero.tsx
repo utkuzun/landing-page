@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section id='hero'>
       <div className='section-double'>
-        <div className='flex flex-col mb-32 space-y-12 md:w-1/2'>
+        <div className='flex flex-col mb-20 space-y-12 md:w-1/2'>
           <h1 className='max-w-md text-4xl font-bold text-center md:text-5xl md:text-left'>
             Bring everyone together to build better products.
           </h1>
